@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-color: rgb(218, 216, 213);
 }
@@ -5,7 +9,37 @@ body {
 .cv {
     background-color: rgb(255, 255, 255);
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto; 
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 50%;
     box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+
+.main {
+    display: flex;
+}
+
+.left-column {
+    width: 30%;
+}
+
+.right-column {
+    width: 70%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.photo {
+    border-radius: 50%;
 }
