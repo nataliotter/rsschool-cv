@@ -22,10 +22,12 @@ body {
 
 .left-column {
     width: 30%;
+    padding: 40px;
 }
 
 .right-column {
     width: 70%;
+    padding: 40px;
 }
 
 .nav-list {
@@ -42,4 +44,16 @@ body {
 
 .photo {
     border-radius: 50%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.github {
+    display: flex;
+    align-items: center;
 }
