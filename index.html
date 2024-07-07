@@ -14,32 +14,81 @@
             <nav class="nav">
                 <ul class="nav-list">
                   <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                   <li class="nav-item"><a href="#aboutme" class="nav-link">About Me</a></li>
                   <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
                 </ul>
               </nav>
+            <div class="divider-black"></div>
         </header>
             
         <main class="main">
             <div class="left-column">
                 <img src="./assets/img/photo.jpg" alt="avatar" class="photo" width="200px">
                 <h1>Natalia Pomelova</h1>
+                <p>QA engineer</p>
                 <h2 id="contacts">Contacts</h2>
-                    * Phone: +79617738566
-                    * Telegram: @natali_otter
-                    * Email: nata-lil@bk.ru
+                <ul>
+                    <li>Phone: +79617738566</li>
+                    <li>Telegram: @natali_otter</li>
+                    <li>Email: nata-lil@bk.ru</li>
+                </ul> 
+                <h2 id="skills">Skills</h2>
+                <ul>
+                    <li>AutoCad</li>
+                    <li>Adobe Photoshop</li>
+                    <li>VS Code</li>
+                    <li>GitHub</li>
+                    <li>GitLab</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul> 
+                <h2 id="education">Education</h2>
+                <p>Ural State University of Economics, Yekaterinburg</p>
+                <p>Bachelor: Food engineer</p>
+                <p>Years: 2014 - 2018</p>
             </div>
             <div class="right-column">
                 <h2 id="aboutme">About Me</h2>
-                    I love studying. I'll write the rest later. 
+                <p class="medescr">I am a lifelong learner with an insatiable curiosity and a passion for acquiring new knowledge and skills. I firmly believe that my ability to learn quickly and adapt is my greatest strength. At 28 years old, I have dedicated the last three years to working as a software tester, where I have honed my analytical skills and attention to detail.</p>
+                <p class="medescr">My journey began in Tagil, where I was born and raised. I pursued my education in Yekaterinburg, which laid the foundation for my professional career. Following my studies, I lived in the vibrant city of St. Petersburg, where I gained valuable life and work experiences. Currently, I reside in the culturally rich city of Yerevan, embracing new challenges and opportunities.</p>
+                <p class="medescr">In addition to my professional pursuits, I cherish my weekends spent outdoors. Whether I’m cycling through scenic routes or hiking up challenging trails, I find peace and inspiration in nature. These activities not only keep me physically active but also provide a perfect balance to my analytical work life.</p>
+                <p class="medescr">I pride myself on being independent and easy to communicate with, qualities that have helped me build strong professional relationships and work effectively within diverse teams. My background, combined with my eagerness to learn and grow, makes me a versatile and dynamic professional, ready to take on new challenges and contribute to innovative projects.</p>
                 <h2 id="languages">Languages</h2>
-                    * Russian - native speaker
-                    * English - A2 (I understand Indian English)
-                </div>
+                <ul>
+                    <li>Russian - native speaker</li>
+                    <li>English - B1</li>
+                </ul>
+                <h2 id="code">Code Example</h2>
+                <pre>
+                    <code>
+    let x = Number(prompt("x:"));
+    let result = 1;
+    let i = 1; 
+    while (i <= x) {
+        result *= i;
+        i++;
+    }
+    console.log(`Факториал числа ${x} равен ${result}`);</code>
+                </pre>
+            </div>
         </main>       
 
         <footer class="footer">
-            footer
+            <div class="divider-black"></div>
+            <div class="info">
+                <a class="github" href="https://github.com/nataliotter">
+                    <img class="githubicon" src="/assets/img/github.svg" alt="github icon" width="26px" height="26px">
+                    <p>My github</p>
+                </a>
+                <a href="https://rs.school/courses/javascript-preschool-ru">
+                    <img src="./assets/img/rs-school-logo.svg" alt="rs school icon" width="73px" height="26px"> 
+                </a>
+                <p>© 2024</p>
+             </div>
+            
         </footer>
     </div>
 
